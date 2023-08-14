@@ -1,13 +1,12 @@
-module.exports = ({env}) => ({
-  upload: {
-    config: {
-      provider: "strapi-provider-upload-do",
-      providerOptions: {
-        key: env('DO_SPACE_ACCESS_KEY'),
-        secret: env('DO_SPACE_SECRET_KEY'),
-        endpoint: env('DO_SPACE_ENDPOINT'),
-        space: env('DO_SPACE_BUCKET')
-      }
-    },
-  },
-})
+module.exports = ({ env }) => {
+  let pluginsConfig = require('./plugins'); // Default configuration
+
+  if (env('NODE_ENV') === 'production') {
+    pluginsConfig = require('./env/production/plugins'); // Override for production
+  }
+
+  return {
+    // Other server configurations...
+    plugins: pluginsConfig,
+  };
+};
