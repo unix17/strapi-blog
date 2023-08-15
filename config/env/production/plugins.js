@@ -9,5 +9,5 @@ module.exports = ({env}) => ({
         space: env('DO_SPACE_BUCKET')
       }
     },
-  },
+  }
 })
