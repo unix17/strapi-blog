@@ -1,0 +1,140 @@
+{
+  "key": "plugin_content_manager_configuration_components::layout.footer",
+  "value": {
+    "uid": "layout.footer",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "footerLogo": {
+        "edit": {
+          "label": "footerLogo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "footerLogo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "menuLinks": {
+        "edit": {
+          "label": "menuLinks",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "menuLinks",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "legalLinks": {
+        "edit": {
+          "label": "legalLinks",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "legalLinks",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "socialLinks": {
+        "edit": {
+          "label": "socialLinks",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "socialLinks",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "categories": {
+        "edit": {
+          "label": "categories",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "categories",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "footerLogo",
+        "menuLinks",
+        "legalLinks"
+      ],
+      "edit": [
+        [
+          {
+            "name": "footerLogo",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "menuLinks",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "legalLinks",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "socialLinks",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "categories",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

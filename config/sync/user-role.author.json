@@ -1,0 +1,28 @@
+{
+  "name": "Guest Author",
+  "description": "API user guest author",
+  "type": "author",
+  "permissions": [
+    {
+      "action": "api::article.article.create"
+    },
+    {
+      "action": "api::article.article.findOne"
+    },
+    {
+      "action": "api::article.article.update"
+    },
+    {
+      "action": "api::author.author.create"
+    },
+    {
+      "action": "api::author.author.findOne"
+    },
+    {
+      "action": "api::category.category.find"
+    },
+    {
+      "action": "api::category.category.findOne"
+    }
+  ]
+}

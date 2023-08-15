@@ -1,0 +1,76 @@
+{
+  "key": "plugin_content_manager_configuration_components::layout.logo",
+  "value": {
+    "uid": "layout.logo",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "logoText",
+      "defaultSortBy": "logoText",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "logoImg": {
+        "edit": {
+          "label": "logoImg",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "logoImg",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "logoText": {
+        "edit": {
+          "label": "logoText",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "logoText",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "logoImg",
+        "logoText"
+      ],
+      "edit": [
+        [
+          {
+            "name": "logoImg",
+            "size": 6
+          },
+          {
+            "name": "logoText",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

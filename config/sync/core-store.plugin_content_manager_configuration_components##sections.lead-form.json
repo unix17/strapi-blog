@@ -1,0 +1,135 @@
+{
+  "key": "plugin_content_manager_configuration_components::sections.lead-form",
+  "value": {
+    "uid": "sections.lead-form",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "title",
+      "defaultSortBy": "title",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "title": {
+        "edit": {
+          "label": "title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "emailPlaceholder": {
+        "edit": {
+          "label": "emailPlaceholder",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "emailPlaceholder",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "submitButton": {
+        "edit": {
+          "label": "submitButton",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "submitButton",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "location": {
+        "edit": {
+          "label": "location",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "location",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "description": {
+        "edit": {
+          "label": "description",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "description",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "title",
+        "emailPlaceholder",
+        "submitButton"
+      ],
+      "edit": [
+        [
+          {
+            "name": "title",
+            "size": 6
+          },
+          {
+            "name": "emailPlaceholder",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "submitButton",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "location",
+            "size": 6
+          },
+          {
+            "name": "description",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

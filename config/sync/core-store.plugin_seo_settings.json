@@ -1,0 +1,113 @@
+{
+  "key": "plugin_seo_settings",
+  "value": {
+    "api::article.article": {
+      "collectionName": "article",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::author.author": {
+      "collectionName": "author",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::category.category": {
+      "collectionName": "category",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::global.global": {
+      "collectionName": "global",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::lead-form-submission.lead-form-submission": {
+      "collectionName": "lead-form-submission",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::page.page": {
+      "collectionName": "page",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::product-feature.product-feature": {
+      "collectionName": "product-feature",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}
