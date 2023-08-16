@@ -4,6 +4,8 @@ const { host, port, database, user, password } = parse(
   process.env.DATABASE_URL
 );
 
+console.log(host, port, database, user, password, '----DATABASE----');
+
 module.exports = ({ env }) => ({
   connection: {
     client: 'postgres',
